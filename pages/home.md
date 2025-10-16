@@ -1,15 +1,15 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+title: "Ultima Online New Renaissance"
+description: "A custom Renaissance era Ultima Online free shard. Classic gameplay, custom content, and an active community awaits you in Britannia."
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: Ultima Online - New Renaissance
 
 hero:
   enabled: true
-  heading: "Jekyll Advance"
-  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+  heading: "Ultima Online - New Renaissance"
+  sub_heading: "A custom Renaissance era Ultima Online free shard. Classic gameplay, custom content, and an active community awaits you in Britannia."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -21,8 +21,8 @@ hero:
   buttons:
     enabled: false
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
+      - text: "Download Now"
+        url: "https://github.com/xzCad/newrenaissance-launcher/releases/download/Installer/New.Renaissance.exe"
         external: true
         fa_icon: false
         size: large # "small", "normal", "large"
@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "Our Services"
+  heading: "Quick Links"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
