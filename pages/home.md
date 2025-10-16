@@ -12,7 +12,7 @@ hero:
   sub_heading: "A custom Renaissance era Ultima Online free shard. Classic gameplay, custom content, and an active community awaits you in Britannia."
   text_color: "#FFFFFF"
   background_color: false
-  background_gradient: true
+  background_gradient: false
   background_image: "/assets/images/gen/home/home-1.jpg"
   background_image_blend_mode: false
   fullscreen_mobile: true
