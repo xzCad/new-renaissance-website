@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "Services"
+  heading: "Quick Links"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
