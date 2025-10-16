@@ -9,10 +9,10 @@ hero:
   enabled: true
   heading: "Services"
   sub_heading: "We offer a complete range of digital services."
-  text_color: "#FFFFFF"
+  text_color: "#000000ff"
   background_color: false
   background_gradient: true
-  background_image: "/assets/images/gen/home/home-8-large.webp"
+  background_image: "/assets/images/gen/home/home-1.jpg"
   background_image_blend_mode: false
   fullscreen_mobile: false
   fullscreen_desktop: false
