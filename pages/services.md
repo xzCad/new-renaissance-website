@@ -12,7 +12,7 @@ hero:
   text_color: "#000000ff"
   background_color: false
   background_gradient: true
-  background_image: "/assets/images/gen/home/home-1.png"
+  background_image: "/assets/images/gen/home/home-1.jpg"
   background_image_blend_mode: false
   fullscreen_mobile: false
   fullscreen_desktop: false
