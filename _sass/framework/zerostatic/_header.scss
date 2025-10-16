@@ -2,7 +2,6 @@
   font-family: var(--font-family-header);
   font-size: var(--header-font-size);
   background-color: var(--color-base-bg);
-    background-color: #000000 !important; // Always black
   color: var(--color-header-text);
   .container {
     display: flex;
@@ -22,7 +21,7 @@
   width: 100%;
   top: 0;
   z-index: 10;
-  background-color: #000000 !important; // Make transparent header black
+  background-color: transparent !important;
   box-shadow: none !important;
   color: white;
   a {
@@ -62,6 +61,7 @@
   transition: all 200ms linear;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   color: var(--color-header-text);
+    background-color: #000000 !important; // Always black when scrolled
   a {
     color: var(--color-header-text);
   }
@@ -71,4 +71,5 @@
   width: 100%;
   top: 0;
   z-index: 10;
+  background-color: #000000 !important; // Always black when fixed
 }
