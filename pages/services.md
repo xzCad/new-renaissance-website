@@ -1,18 +1,18 @@
 ---
 layout: list
-title: Quick Links
+title: Services
 description: false
-permalink: "/quicklinks/"
+permalink: "/services/"
 header_transparent: true
 
 hero:
   enabled: true
-  heading: "Quick Links"
+  heading: "Services"
   sub_heading: false
   text_color: "#000000ff"
   background_color: false
   background_gradient: true
-  background_image: "/assets/images/gen/home/home-1.jpg"
+  background_image: "/assets/images/gen/home/home-1.png"
   background_image_blend_mode: false
   fullscreen_mobile: false
   fullscreen_desktop: false
@@ -29,7 +29,7 @@ hero:
         style: "light"
 
 grid:
-  collection: "quicklinks"
+  collection: "services"
   sort_by: "weight" # "date", "weight"
   columns: 3
   prevent_click: false
