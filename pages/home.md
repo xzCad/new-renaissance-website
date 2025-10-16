@@ -42,9 +42,6 @@ services:
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
-  view_more_button_text: "View All Services"
-  view_more_button_link: "/services"
-  prevent_click: false
 
 intro:
   enabled: true
