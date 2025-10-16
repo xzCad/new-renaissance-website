@@ -8,41 +8,41 @@ meta_title: Ultima Online - New Renaissance
 
 hero:
   enabled: true
-  heading: "Ultima Online - New Renaissance"
-  sub_heading: "A custom Renaissance era Ultima Online free shard. Classic gameplay, custom content, and an active community awaits you in Britannia."
+  heading: "Welcome to New Renaissance"
+  sub_heading: "Experience Ultima Online as it was meant to be. Renaissance era mechanics, custom content, and a thriving community await you in Britannia."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
   background_image: "/assets/images/gen/home/home-1-large.webp"
-  background_image_blend_mode: overlay # "overlay", "multiply", "screen"
+  background_image_blend_mode: overlay
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "Download Now"
+      - text: "Download Client"
         url: "https://github.com/xzCad/newrenaissance-launcher/releases/download/Installer/New.Renaissance.exe"
         external: true
-        fa_icon: false
-        size: large # "small", "normal", "large"
+        fa_icon: "fas fa-download"
+        size: large
         outline: false
-        style: "light" # "light", "dark", "primary"
-      - text: "Documentation"
-        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
-        external: true
-        fa_icon: false
+        style: "primary"
+      - text: "Getting Started"
+        url: "/getting-started"
+        external: false
+        fa_icon: "fas fa-book"
         size: large
         outline: true
         style: "light"
 
 services:
   enabled: true
-  heading: "Quick Links"
-  sub_heading: ""
+  heading: "Server Features"
+  sub_heading: "What makes New Renaissance unique"
   limit: 6
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Services"
+  sort: "weight"
+  view_more_button_text: "View All Features"
   view_more_button_link: "/services"
   prevent_click: false
 
@@ -50,23 +50,21 @@ intro:
   enabled: true
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
-  heading: "We've helped hundreds of people grow their business online."
-  sub_heading: "Our software empowers customers and retailers to work from anywhere in the world, on the go, or at home."
+  heading: "Classic Renaissance Era Gameplay"
+  sub_heading: "We've carefully recreated the golden age of Ultima Online with modern enhancements. Join hundreds of players in a living, breathing world of adventure."
   features:
-    enabled: false
+    enabled: true
     list:
-      - text: "Configure the homepage sections in front-matter."
+      - text: "Authentic Renaissance era mechanics and skill system"
         fa_icon: "fas fa-check"
-      - text: "An advanced hero image section with dozens of design options."
+      - text: "Active staff and regular events"
         fa_icon: "fas fa-check"
-      - text: "Fully responsive and SEO optimised."
-        fa_icon: "fas fa-check"
-      - text: "Multiple content types including services, projects, blog and more."
+      - text: "Balanced PvP and PvE experiences"
         fa_icon: "fas fa-check"
   buttons:
     enabled: true
     list:
-      - text: "About Us"
+      - text: "Learn More"
         url: "/about"
         external: false
         fa_icon: ""
@@ -75,18 +73,18 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
-  sort: "weight" # 'date'
+  sort: "weight"
 
 projects:
   enabled: true
-  heading: "Our Projects"
-  sub_heading: ""
+  heading: "Community Highlights"
+  sub_heading: "Recent events and player achievements"
   limit: 2
   columns: 2
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Projects"
+  sort: "weight"
+  view_more_button_text: "View Gallery"
   view_more_button_link: "/projects"
   prevent_click: false
 
@@ -94,29 +92,32 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: Get Started Today
-  sub_heading: "Save time and money using this premium Jekyll theme."
+  heading: "Ready to Begin Your Journey?"
+  sub_heading: "Download the client and connect to New Renaissance today. Adventure awaits in Britannia!"
   features:
     enabled: false
-    list:
-      - text: "Free Quote"
-        fa_icon: "fas fa-envelope-open-text"
   buttons:
     enabled: true
     list:
-      - text: "Contact Us"
+      - text: "Download Now"
+        url: "https://github.com/xzCad/newrenaissance-launcher/releases/download/Installer/New.Renaissance.exe"
+        external: true
+        size: "large"
+        style: "primary"
+      - text: "Join Discord"
         url: "/contact"
         external: false
         size: "large"
+        style: "light"
 
 posts:
   enabled: true
-  heading: "Latest Posts"
-  sub_heading: ""
+  heading: "Latest News & Updates"
+  sub_heading: "Stay informed about server updates, events, and announcements"
   limit: 3
   columns: 3
-  sort: "weight" # 'date'
-  view_more_button_text: "View All Posts"
+  sort: "date"
+  view_more_button_text: "View All News"
   view_more_button_link: "/blog"
   prevent_click: false
 ---
