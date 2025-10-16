@@ -33,8 +33,8 @@ main:
   - name: Blog
     url: /blog/
     weight: 4
-  - name: About
-    url: /about/
+  - name: Discord
+    url: https://discord.gg/aynT7Cv82d
     weight: 5
   - name: Download Now
     url: https://github.com/xzCad/newrenaissance-launcher/releases/download/Installer/New.Renaissance.exe

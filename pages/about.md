@@ -17,8 +17,8 @@ hero:
   buttons:
     enabled: false
     list:
-      - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
+      - text: "Download Now"
+        url: "https://github.com/xzCad/newrenaissance-launcher/releases/download/Installer/New.Renaissance.exe"
         external: true
         fa_icon: false
         size: large
