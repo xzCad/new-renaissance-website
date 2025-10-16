@@ -11,7 +11,7 @@ hero:
   heading: "Ultima Online - New Renaissance"
   sub_heading: "A custom Renaissance era Ultima Online free shard. Classic gameplay, custom content, and an active community awaits you in Britannia."
   text_color: "#FFFFFF"
-  background_color: "#1d2830"
+  background_color: false
   background_gradient: true
   background_image: "/assets/images/gen/home/home-1.jpg"
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
