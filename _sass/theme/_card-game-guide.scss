@@ -71,8 +71,27 @@
     margin-right: 7px;
     display: flex;
   }
+
   // Tweaks for dark mode
-html[data-bs-theme="dark"] & {
-  background-color: var(--color-base-bg-2);
+  html[data-bs-theme="dark"] & {
+    background-color: var(--color-base-bg-2);
+
+    // Prevent icons/images from being inverted in dark mode for these cards.
+    .card-image {
+      img,
+      svg,
+      .no-invert {
+        filter: none !important;
+        -webkit-filter: none !important;
+        mix-blend-mode: normal !important;
+        isolation: isolate !important;
+      }
+
+      // If inline SVGs use currentColor and you want them to match the text color:
+      svg {
+        fill: currentColor;
+        stroke: currentColor;
+      }
+    }
   }
 }
