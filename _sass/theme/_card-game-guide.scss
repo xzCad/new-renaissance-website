@@ -72,7 +72,12 @@
     display: flex;
   }
   // Tweaks for dark mode
-  html[data-bs-theme="dark"] & {
-    background-color: var(--color-base-bg-2);
+html[data-bs-theme="dark"] & {
+  background-color: var(--color-base-bg-2);
+  .card-icon {
+    img {
+      // Removed invert filter - icons display in original colors
+    }
   }
+}
 }
