@@ -67,12 +67,15 @@ Once you've logged in, you'll begin the character creation process.
 
 ### Choose Your Race
 
-New Renaissance features the classic UO races:
+New Renaissance features the classic UO race:
 
 **Human**
 - Most versatile and balanced
 - No special abilities, but no restrictions
 - Recommended for new players
+
+Humans
+The first playable race in Ultima Online. Humans naturally heal faster, and are more adept at basic resource gathering and can carry greater weights. Most significantly, they have the “Jack of All Trades” trait, which provides them a “hidden” minimum of 20 skill points in all skills – even ones they have not trained past 0. Humans are the most widespread race, with kingdoms in Britannia and the Lost Lands.
 
 ### Customize Your Appearance
 
