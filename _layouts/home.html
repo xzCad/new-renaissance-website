@@ -31,7 +31,7 @@ body_classes: page-home
   </div>
 {% endif %}
 
-{% assign cards = site.game-guides | sort: 'date' | reverse %}
+{% assign cards = site.game_guides | sort: 'date' | reverse %}
 {% assign limit = page.game-guides.limit | default: 3 %}
 {% assign sort_by = page.game-guides.sort | default: 'date' %}
 {% assign columns =  page.game-guides.columns | default: 3 %}
@@ -59,7 +59,7 @@ body_classes: page-home
           {% endif %}
           
           <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
-            {% include theme/cards/card-game-guides.html 
+            {% include theme/cards/card-game_guides.html 
               title=card.title 
               description=card.description
               fa_icon=card.fa_icon
