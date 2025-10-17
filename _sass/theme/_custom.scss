@@ -44,7 +44,8 @@
   color: var(--color-primary-text);
 }
 
-.page.page-home {
+.page.page-home,
+.page.page-list {
   .card-game-guides {
     padding: 25px;
     background-color: var(--color-base-bg-3);
