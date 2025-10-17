@@ -19,7 +19,7 @@ paginate_path: "/blog/page/:num"
 # Collections
 collections_dir: collections
 collections:
-  services:
+  game_guides:
     output: true
     permalink: /:collection/:path/
   projects:
@@ -36,9 +36,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: services
+      type: game_guides
     values:
-      layout: service
+      layout: game_guide
   - scope:
       path: ""
       type: projects
@@ -207,8 +207,8 @@ bottom:
   show_rss_icon: true
 
 sidebar:
-  enable_sidebar_services: true
-  enable_breadcrumbs_services: true
+  enable_sidebar_game_guides: true
+  enable_breadcrumbs_game_guides: true
   enable_sidebar_projects: false
   enable_breadcrumbs_projects: true
 

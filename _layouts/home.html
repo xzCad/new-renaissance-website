@@ -31,35 +31,35 @@ body_classes: page-home
   </div>
 {% endif %}
 
-{% assign cards = site.services | sort: 'date' | reverse %}
-{% assign limit = page.services.limit | default: 3 %}
-{% assign sort_by = page.services.sort | default: 'date' %}
-{% assign columns =  page.services.columns | default: 3 %}
+{% assign cards = site.game-guides | sort: 'date' | reverse %}
+{% assign limit = page.game-guides.limit | default: 3 %}
+{% assign sort_by = page.game-guides.sort | default: 'date' %}
+{% assign columns =  page.game-guides.columns | default: 3 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
-{% if page.services.enabled %}
+{% if page.game-guides.enabled %}
   <div class="section section-base-bg-2">
     <div class="container">
       <div class="row">
 
         {% include framework/grid-header.html
-          heading=page.services.heading
-          sub_heading=page.services.sub_heading
+          heading=page.game-guides.heading
+          sub_heading=page.game-guides.sub_heading
           align="center"
         %}
         
         {% for card in cards limit: limit %}
 
           {% assign url = card.url %}
-          {% if page.services.prevent_click %}
+          {% if page.game-guides.prevent_click %}
             {% assign url = null %}
           {% endif %}
           
           <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
-            {% include theme/cards/card-services.html 
+            {% include theme/cards/card-game-guides.html 
               title=card.title 
               description=card.description
               fa_icon=card.fa_icon
@@ -71,8 +71,8 @@ body_classes: page-home
         {% endfor %}
 
         {% include framework/grid-footer.html 
-          view_more_button_text=page.services.view_more_button_text
-          view_more_button_link=page.services.view_more_button_link
+          view_more_button_text=page.game-guides.view_more_button_text
+          view_more_button_link=page.game-guides.view_more_button_link
           align="center"
         %}
 

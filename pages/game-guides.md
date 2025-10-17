@@ -1,13 +1,13 @@
 ---
 layout: list
-title: Services
+title: Game Guides
 description: false
-permalink: "/services/"
+permalink: "/game-guides/"
 header_transparent: true
 
 hero:
   enabled: true
-  heading: "Services"
+  heading: "Game Guides"
   sub_heading: false
   text_color: "#000000ff"
   background_color: false
@@ -29,7 +29,7 @@ hero:
         style: "light"
 
 grid:
-  collection: "services"
+  collection: "game_guides"
   sort_by: "weight" # "date", "weight"
   columns: 3
   prevent_click: false

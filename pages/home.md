@@ -36,7 +36,7 @@ hero:
         outline: true
         style: "light"
 
-services:
+game-guides:
   enabled: true
   heading: "Quick Links"
   sub_heading: ""

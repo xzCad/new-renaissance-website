@@ -1,23 +1,23 @@
 ---
-title: "Software Engineering"
-description: "Building complex web applications and system software."
-date: 2019-10-03
-weight: 6
+title: "Web Development"
+description: "Our experienced software engineers develop websites and desktop applications"
+date: 2017-11-28T15:14:54+10:00
+weight: 1
 header_transparent: true
-fa_icon: "fab fa-codepen"
-icon: "assets/images/icons/icons8-merge-git-100.png"
-thumbnail: "/assets/images/gen/services/service-6-thumbnail.webp"
-image: "/assets/images/gen/services/service-6.webp"
+fa_icon: false
+icon: "assets/images/icons/icons8-source-code-100.png"
+thumbnail: "/assets/images/gen/game-guides/service-1-thumbnail.webp"
+image: "/assets/images/gen/game-guides/service-1.webp"
 
 hero:
   enabled: true
-  heading: "Software Engineering"
-  sub_heading: "Building complex web applications and system software."
-  text_color: "#ffffff"
+  heading: "Web Development"
+  sub_heading: "Our experienced software engineers develop websites and desktop applications"
+  text_color: "#FFFFFF"
   background_color: ""
   background_gradient: true
-  background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/service-6.webp"
+  background_image_blend_mode: false # "overlay", "multiply", "screen"
+  background_image: "/assets/images/gen/game-guides/service-1-large.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: 660px

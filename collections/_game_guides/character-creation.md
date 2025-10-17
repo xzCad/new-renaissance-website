@@ -1,26 +1,26 @@
 ---
-title: "Web Design"
-description: "Design beautiful modern websites using the Jamstack."
-date: 2018-11-28T15:15:34+10:00
-weight: 4
+title: "SEO"
+description: "Improving search engine rankings through techincal on page SEO and content creation."
+date: 2021-07-23
+weight: 5
 header_transparent: true
-fa_icon: false
-icon: "assets/images/icons/icons8-design-100.png"
-thumbnail: "/assets/images/gen/services/service-4-thumbnail.webp"
-image: "/assets/images/gen/services/service-4.webp"
+fa_icon: "far fa-chart-bar"
+icon: "assets/images/icons/icons8-bar-chart-100.png"
+thumbnail: "/assets/images/gen/game_guides/service-5-thumbnail.webp"
+image: "/assets/images/gen/game_guides/service-5.webp"
 
 hero:
   enabled: true
-  heading: "Web Design"
-  sub_heading: "Design beautiful modern websites using the Jamstack."
+  heading: "SEO"
+  sub_heading: "Improving search engine rankings through techincal on page SEO and content creation."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/service-4-large.webp"
-  fullscreen_mobile: true
+  background_image: "/assets/images/gen/game_guides/service-5.webp"
+  fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 660px;
+  height: 660px
   buttons:
     enabled: false
     list:

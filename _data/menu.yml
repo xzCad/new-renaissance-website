@@ -2,22 +2,22 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: Services
-    url: /services/
+  - name: Game Guides
+    url: /game-guides/
     weight: 1
     child:
-      - name: "Web Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-      - name: "Web Design"
-        url: /services/web-design/
-      - name: "SEO"
-        url: /services/seo/
-      - name: "Software Engineering"
-        url: /services/software-engineering/
+      - name: "Getting Started"
+        url: /game_guides/getting-started/
+      - name: "Character Creation"
+        url: /game_guides/character-creation/
+      - name: "Skill System"
+        url: /game_guides/skill-system/
+      - name: "Combat Guide"
+        url: /game_guides/combat-guide/
+      - name: "Housing Guide"
+        url: /game_guides/housing-guide/
+      - name: "Crafting Guide"
+        url: /game_guides/crafting-guide/
   - name: Projects
     url: /projects/
     weight: 2
@@ -43,8 +43,8 @@ footer_primary:
   - name: Home
     url: /
     weight: 1
-  - name: Services
-    url: /services/
+  - name: Game Guides
+    url: /game-guides/
     weight: 2
   - name: Projects
     url: /projects/
