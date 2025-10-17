@@ -5,7 +5,7 @@ date: 2025-01-15
 weight: 1
 header_transparent: true
 fa_icon: false
-icon: "assets/images/icons/icons8-color-palette-100.png"
+icon: "assets/images/icons/walltorch.png"
 thumbnail: "/assets/images/gen/game-guides/service-3-thumbnail.webp"
 image: "/assets/images/gen/game-guides/service-3.webp"
 
