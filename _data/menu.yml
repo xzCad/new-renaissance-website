@@ -14,10 +14,10 @@ main:
         url: /game_guides/skill-system/
       - name: "Combat Guide"
         url: /game_guides/combat-guide/
-      - name: "Housing Guide"
-        url: /game_guides/housing-guide/
       - name: "Crafting Guide"
         url: /game_guides/crafting-guide/
+      - name: "Housing Guide"
+        url: /game_guides/housing-guide/
   - name: Projects
     url: /projects/
     weight: 2
