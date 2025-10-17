@@ -42,6 +42,7 @@ game-guides:
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
+  columns: 3
   view_more_button_text: false
   view_more_button_link: false
   prevent_click: false
