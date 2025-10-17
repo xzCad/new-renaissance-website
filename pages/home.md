@@ -48,7 +48,7 @@ game-guides:
   prevent_click: false
 
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
   heading: "We've helped hundreds of people grow their business online."
@@ -65,7 +65,7 @@ intro:
       - text: "Multiple content types including services, projects, blog and more."
         fa_icon: "fas fa-check"
   buttons:
-    enabled: true
+    enabled: false
     list:
       - text: "About Us"
         url: "/about"
@@ -76,12 +76,12 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
   sort: "weight" # 'date'
 
 projects:
-  enabled: true
+  enabled: false
   heading: "Our Projects"
   sub_heading: ""
   limit: 2
@@ -92,7 +92,7 @@ projects:
   prevent_click: false
 
 outro:
-  enabled: true
+  enabled: false
   align: center
   image: false
   heading: Get Started Today
@@ -103,7 +103,7 @@ outro:
       - text: "Free Quote"
         fa_icon: "fas fa-envelope-open-text"
   buttons:
-    enabled: true
+    enabled: false
     list:
       - text: "Contact Us"
         url: "/contact"
@@ -111,7 +111,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: true
+  enabled: false
   heading: "Latest Posts"
   sub_heading: ""
   limit: 3
