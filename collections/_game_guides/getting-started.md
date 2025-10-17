@@ -1,7 +1,7 @@
 ---
 title: "Getting Started"
 description: "Your complete guide to beginning your adventure in New Renaissance"
-date: false
+date: 2025-01-15
 weight: 1
 header_transparent: true
 fa_icon: false
@@ -16,7 +16,7 @@ hero:
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true
-  background_image_blend_mode: false"
+  background_image_blend_mode: false
   background_image: "/assets/images/gen/game-guides/service-3.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
