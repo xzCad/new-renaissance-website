@@ -72,26 +72,35 @@
     display: flex;
   }
 
-  // Tweaks for dark mode
+  // Updated, stronger tweaks for dark mode to prevent inversion
   html[data-bs-theme="dark"] & {
     background-color: var(--color-base-bg-2);
 
-    // Prevent icons/images from being inverted in dark mode for these cards.
+    /* Undo any global dark-mode inversion/blend applied elsewhere for these cards */
     .card-image {
+      /* target common image types + inline SVGs and elements with .no-invert */
       img,
+      picture img,
       svg,
       .no-invert {
-        filter: none !important;
         -webkit-filter: none !important;
+        filter: none !important;
         mix-blend-mode: normal !important;
         isolation: isolate !important;
+        background-color: transparent !important;
       }
 
-      // If inline SVGs use currentColor and you want them to match the text color:
+      /* Ensure inline SVG strokes/fills render normally */
       svg {
-        fill: currentColor;
-        stroke: currentColor;
+        fill: currentColor !important;
+        stroke: currentColor !important;
       }
+    }
+
+    /* Also ensure no ancestor blend-mode overrides the icon appearance */
+    &, & * {
+      mix-blend-mode: normal !important;
+      isolation: isolate !important;
     }
   }
 }
