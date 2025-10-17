@@ -127,8 +127,8 @@ logo:
   logo_text: "New Renaissance"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo.png
-  logo_image_invert: assets/images/logo/logo.png
-  logo_image_invert_mobile: assets/images/logo/logo.png
+  logo_image_invert: false
+  logo_image_invert_mobile: false
   logo_image_desktop_height: "50px"
   logo_image_desktop_width: "50px"
   logo_image_mobile_height: "40px"

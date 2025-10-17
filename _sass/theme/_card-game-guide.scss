@@ -1,4 +1,4 @@
-.card.card-game-guide {
+.card.card-service {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -71,36 +71,8 @@
     margin-right: 7px;
     display: flex;
   }
-
-  // Updated, stronger tweaks for dark mode to prevent inversion
+  // Tweaks for dark mode
   html[data-bs-theme="dark"] & {
     background-color: var(--color-base-bg-2);
-
-    /* Undo any global dark-mode inversion/blend applied elsewhere for these cards */
-    .card-image {
-      /* target common image types + inline SVGs and elements with .no-invert */
-      img,
-      picture img,
-      svg,
-      .no-invert {
-        -webkit-filter: none !important;
-        filter: none !important;
-        mix-blend-mode: normal !important;
-        isolation: isolate !important;
-        background-color: transparent !important;
-      }
-
-      /* Ensure inline SVG strokes/fills render normally */
-      svg {
-        fill: currentColor !important;
-        stroke: currentColor !important;
-      }
-    }
-
-    /* Also ensure no ancestor blend-mode overrides the icon appearance */
-    &, & * {
-      mix-blend-mode: normal !important;
-      isolation: isolate !important;
-    }
   }
 }
