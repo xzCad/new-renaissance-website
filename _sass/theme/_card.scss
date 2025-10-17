@@ -50,7 +50,7 @@
       top: 20px;
       right: 30px;
       img {
-        filter: brightness(0) invert(0);
+        filter: none;
       }
     }
   }
@@ -133,7 +133,7 @@
     background-color: var(--color-base-bg);
     .card-icon {
       img {
-        filter: invert(0);
+        filter: none;
       }
     }
   }
