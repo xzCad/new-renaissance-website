@@ -34,8 +34,8 @@ body_classes: page-home
 {% assign cards = site.game_guides | sort: 'date' | reverse %}
 {% assign limit = page.game-guides.limit | default: 3 %}
 {% assign sort_by = page.game-guides.sort | default: 'date' %}
-{% assign columns_num = page.game-guides.columns | default: 3 | plus: 0 %}
-{% capture columns %}col-lg-{{ 12 | divided_by: columns_num }}{% endcapture %}
+{% assign columns =  page.game-guides.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
@@ -120,8 +120,8 @@ body_classes: page-home
 {% assign cards = site.projects | sort: 'date' | reverse %}
 {% assign limit = page.projects.limit | default: 2 %}
 {% assign sort_by = page.projects.sort | default: 'date' %}
-{% assign columns_num = page.projects.columns | default: 2 | plus: 0 %}
-{% capture columns %}col-lg-{{ 12 | divided_by: columns_num }}{% endcapture %}
+{% assign columns =  page.projects.columns | default: 2 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
@@ -186,8 +186,8 @@ body_classes: page-home
 {% assign cards = site.posts | sort: 'date' | reverse %}
 {% assign limit = page.posts.limit | default: 2 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
-{% assign columns_num = page.posts.columns | default: 3 | plus: 0 %}
-{% capture columns %}col-lg-{{ 12 | divided_by: columns_num }}{% endcapture %}
+{% assign columns =  page.posts.columns | default: 2 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
   {% assign cards = cards | sort: 'weight' %}
 {% endif %}
