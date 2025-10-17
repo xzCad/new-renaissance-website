@@ -140,6 +140,8 @@ logo:
 
 header: 
   fixed: true
+  header_height: "60px"
+  header_menu_font_size: "16px"
 
 open_graph:
   meta_opengraph_type: "website"
